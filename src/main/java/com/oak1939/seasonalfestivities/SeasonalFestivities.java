@@ -1,9 +1,10 @@
-package com.oak1939;
+package com.oak1939.seasonalfestivities;
 
-import com.oak1939.block.ModBlocks;
-import com.oak1939.item.ModItemGroups;
-import com.oak1939.item.ModItems;
-import com.oak1939.sound.ModSounds;
+import com.oak1939.seasonalfestivities.block.ModBlocks;
+import com.oak1939.seasonalfestivities.entity.ModEntities;
+import com.oak1939.seasonalfestivities.item.ModItemGroups;
+import com.oak1939.seasonalfestivities.item.ModItems;
+import com.oak1939.seasonalfestivities.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -21,6 +22,8 @@ public class SeasonalFestivities implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModSounds.registerSounds();
+
+		ModEntities.registerMobs();
 
 	}
 }

@@ -1,4 +1,4 @@
-package com.oak1939;
+package com.oak1939.seasonalfestivities;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

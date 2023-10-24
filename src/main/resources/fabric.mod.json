@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.oak1939.SeasonalFestivities"
+          "com.oak1939.seasonalfestivities.SeasonalFestivities"
 		],
 		"fabric-datagen": [
-			"com.oak1939.SeasonalFestivitiesDataGenerator"
+          "com.oak1939.seasonalfestivities.SeasonalFestivitiesDataGenerator"
 		]
 	},
 	"mixins": [

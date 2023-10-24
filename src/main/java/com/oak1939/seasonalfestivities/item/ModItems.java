@@ -1,17 +1,18 @@
-package com.oak1939.item;
+package com.oak1939.seasonalfestivities.item;
 
-import com.oak1939.SeasonalFestivities;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import com.oak1939.seasonalfestivities.SeasonalFestivities;
+import com.oak1939.seasonalfestivities.item.custom.CandyCorn;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static com.oak1939.SeasonalFestivities.MOD_ID;
+import static com.oak1939.seasonalfestivities.SeasonalFestivities.MOD_ID;
 
 public class ModItems {
     // Static items go here
+    public static final CandyCorn CANDYCORN = new CandyCorn((new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MOD_ID, name), item);
@@ -19,5 +20,8 @@ public class ModItems {
 
     public static void registerModItems() {
         SeasonalFestivities.LOGGER.info(String.format("Registering %s for %s","Mod Items",MOD_ID));
+
+        // Register items here
+        ModItems.registerItem("candycorn", CANDYCORN);
     }
 }

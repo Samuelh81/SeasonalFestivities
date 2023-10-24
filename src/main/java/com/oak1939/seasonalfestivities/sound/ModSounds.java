@@ -1,12 +1,12 @@
-package com.oak1939.sound;
+package com.oak1939.seasonalfestivities.sound;
 
-import com.oak1939.SeasonalFestivities;
+import com.oak1939.seasonalfestivities.SeasonalFestivities;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
-import static com.oak1939.SeasonalFestivities.MOD_ID;
+import static com.oak1939.seasonalfestivities.SeasonalFestivities.MOD_ID;
 
 public class ModSounds {
     // Static sounds go here

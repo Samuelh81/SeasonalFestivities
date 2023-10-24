@@ -1,6 +1,6 @@
-package com.oak1939.block;
+package com.oak1939.seasonalfestivities.block;
 
-import com.oak1939.SeasonalFestivities;
+import com.oak1939.seasonalfestivities.SeasonalFestivities;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -9,10 +9,10 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static com.oak1939.SeasonalFestivities.MOD_ID;
+import static com.oak1939.seasonalfestivities.SeasonalFestivities.MOD_ID;
 
 public class ModBlocks {
-    // Static blocks go here
+    // Static minecraft go here
 
 
     private static Block registerBlock(String name, Block block) {

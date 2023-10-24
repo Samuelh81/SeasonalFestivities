@@ -1,4 +1,4 @@
-package com.oak1939.mixin;
+package com.oak1939.seasonalfestivities.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
