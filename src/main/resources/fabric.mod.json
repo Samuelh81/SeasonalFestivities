@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
           "com.oak1939.seasonalfestivities.SeasonalFestivitiesDataGenerator"
+		],
+		"client" : [
+			"com.oak1939.seasonalfestivities.SeasonalFestivitiesClient"
 		]
 	},
 	"mixins": [
